@@ -82,14 +82,14 @@ class DataTrainingArguments:
         default=None, metadata={"help": "The configuration name of the dataset to use (via the datasets library)."}
     )
     train_file: Optional[str] = field(
-        default='/content/data/train_data', metadata={"help": "The input training data file (a csv or JSON file)."}
+        default='./data/train_data', metadata={"help": "The input training data file (a csv or JSON file)."}
     )
     validation_file: Optional[str] = field(
-        default='/content/data/val_data',
+        default='./data/val_data',
         metadata={"help": "An optional input evaluation data file to evaluate on (a csv or JSON file)."},
     )
     test_file: Optional[str] = field(
-        default='/content/data/test_data',
+        default='./data/test_data',
         metadata={"help": "An optional input test data file to predict on (a csv or JSON file)."},
     )
     overwrite_cache: bool = field(

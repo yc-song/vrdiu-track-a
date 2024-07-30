@@ -85,13 +85,13 @@ class Formnlu(datasets.GeneratorBasedBuilder):
         """Returns SplitGenerators."""
         return [
             datasets.SplitGenerator(
-                name=datasets.Split.TRAIN, gen_kwargs={"filepath": f"/content/data/train_data"}
+                name=datasets.Split.TRAIN, gen_kwargs={"filepath": f"./data/train_data"}
             ),
             datasets.SplitGenerator(
-                name=datasets.Split.VALIDATION, gen_kwargs={"filepath": f"/content/data/val_data"}
+                name=datasets.Split.VALIDATION, gen_kwargs={"filepath": f"./data/val_data"}
             ),
             datasets.SplitGenerator(
-                name=datasets.Split.TEST, gen_kwargs={"filepath": f"/content/data/test_data"}
+                name=datasets.Split.TEST, gen_kwargs={"filepath": f"./data/test_data"}
             ),
         ]
 

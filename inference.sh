@@ -1,6 +1,6 @@
 #!/bin/bash
-file_path = './checkpoint' # If you have your own trained file, modify this to the directory
-!python run_funsd_formnlu.py \
+file_path='./checkpoint' # If you have your own trained file, modify this to the directory
+python run_funsd_formnlu.py \
   --dataset_name formnlu \
   --do_predict \
   --model_name_or_path $file_path \

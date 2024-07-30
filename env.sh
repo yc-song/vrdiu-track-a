@@ -13,5 +13,4 @@ pip install numpy
 pip install accelerate -U
 python -m pip install 'git+https://github.com/facebookresearch/detectron2.git'
 git clone https://github.com/microsoft/unilm.git
-cd unilm/layoutlmv3
 pip install -e unilm/layoutlmv3

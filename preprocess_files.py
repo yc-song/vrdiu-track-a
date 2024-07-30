@@ -80,7 +80,7 @@ os.makedirs(os.path.join('./data/val_data/'), exist_ok= True)
 os.makedirs(os.path.join('./data/test_data/'), exist_ok= True)
 shutil.move('./data/train_images', './data/train_data/images')
 shutil.move('./data/val_images', './data/val_data/images')
-shutil.move('./data/test_images' './data/test_data/images')
+shutil.move('./data/test_images', './data/test_data/images')
 image_directory = './data'
 pkl_directory = './data'
 csv_directory = './data'

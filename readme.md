@@ -4,9 +4,10 @@ This repository is for the IJCAI 2024 VRDIU (Visually Rich Form Document Intelli
 
 ### Environment Setting
 
-Create conda environment
+Create conda environment (It may take some time)
 ```
 conda create -n vrdiu python=3.8
+conda activate vrdiu
 ```
 Install packages
 ```
@@ -32,7 +33,7 @@ Inference
 ```
 bash inference.sh
 ```
-Post-processing for ensuring no overlapped keys and save it to csv file
+Post-processing for ensuring no overlapping keys and save it to csv file
 ```
 python post_process.py
 python submission.py
